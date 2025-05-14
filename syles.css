@@ -13,9 +13,15 @@ nav {
 .nav_container {
     width: 100%;
     max-width: 1200px;
+    padding: 0 24px;
     display:flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
+}
+
+.logo {
+    width: 160px;
 }
 
 ul {
@@ -24,4 +30,47 @@ ul {
 
 li {
     list-style-type:  none;
+}
+
+.nav_link {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #7342d6;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.purple {
+    color: #7342d6;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+}
+
+.nav_link--primary {
+    border: 2px solid #7342d6;
+    border-radius: 4px;
+}
+
+.nav_link--primary:hover {
+    text-direction: none;
+}
+
+landing {
+    background-color: rgba(115, 66, 214, 0.1)
+}
+
+header {
+    height: calc (100vh - 80px);
+}
+
+.header_container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
 }
