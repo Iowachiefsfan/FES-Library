@@ -17,6 +17,10 @@ img {
     padding: 20px;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .nav_container {
     width: 100%;
     max-width: 1200px;
@@ -152,7 +156,8 @@ HIGHLIGHTS
 }
 
 .highlight_para {
-text-align: center;
+    text-align: center;
+    max-width: 280px;
 }
 
 .highlight_img {
