@@ -162,7 +162,7 @@ background: url(assets/wave.svg);
     transform: translateY(-100%);
     width: 101vw;
     height: 12vw;
-    back-ground-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     z-index: 1; 
 }
@@ -175,14 +175,14 @@ background: url(assets/wave.svg);
     transform: translateY(-100%);
     width: 101vw;
     height: 12vw;
-    back-ground-size: cover;
+    background-size: cover; 
     background-repeat: no-repeat;
     z-index: 1; 
     top: 1px;
 }
 
 #highlights:before:after {
-    transform: translateY(100%) rotate(180);
+    transform: translateY(100%) rotate(180deg);
     bottom: 1px;
 }
 
@@ -234,32 +234,40 @@ FEATURES
 }
 
 .books {
-    width:25%;
-    padding:24px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .book_img {
     max-height: 380px; 
+    padding:24px;
 }
 
 .book_img--wrapper {
     margin-bottom: 8px;
     border-radius: 4px;
     overflow: hidden;
+    padding:24px;
+    width: 25%;
 }
 
 .book:hover .book_img {
     transform: scale(1.03);
+    padding:24px;
+    width: 25%;
 }
 
 .book_title {
     font-size: 20px;
     margin-bottom: 8px;
+    padding:24px;
 }
 
 .book_title:hover {
     text-docoration: underline;
     cursor: not-allowed;
+    padding:24px;
+    width: 25%;
 }
 
 .book_ratings {
@@ -271,4 +279,6 @@ FEATURES
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+    padding:24px;
+    width: 25%;
 }
