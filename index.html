@@ -17,6 +17,25 @@
             <li><a href="#" class="nav_link nav_link--primary">Books</a></li>
           </ul>
         </div>
+        <button class="btn_menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="menu_backdrop">
+        <button class="btn_menu btn_menu--close">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="menu_link">
+          <li class="menu_list">
+            <a href="#" class="menu_link">Home</a>
+          </li>
+          <li class="menu_list">
+            <a href="#" class="menu_link">Books</a>
+          </li>
+          <li class="menu_list">
+            <a href="#" class="menu_link no-cursor">Contact</a>
+          </li>
+        </ul>
+      </div>
       </nav>
       <header>
         <div class="header_container">
@@ -302,12 +321,30 @@
       </section>
       <section id="explore">
         <div class="container">
-            <div class="row">
+            <div class="row row_column">
                 <h2>Explore more <span class="purple"> Books</span></h2>
-                <button>Browse Books</button>
+               <a href="features"></a>
+                <button class="btn">Browse Books</button>
             </div>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="container"></div>
+      <div class="row"></div>
+      <a href="">
+      <figure class="footer_logo">
+        <img src="./assets/Library.svg" class="footer_logo--img" alt="">
+      </figure>
+    </a>
+    <div class="footer_list">
+      <a href="" class="footer_link">Home</a>
+      <a href="" class="footer_link no-cursor">About</a>
+      <a href="" class="footer_link">Books</a>
+      <a href="" class="footer_link no-cursor">Contact</a>
+    </div>
+    <div class="footer_copyright">Copyright &copy; 2021 Library</div>
+    </div>
+    </footer>
   </body>
 </html>
